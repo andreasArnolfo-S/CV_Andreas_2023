@@ -15,7 +15,7 @@ const Hero: FC<HeroProps> = () => {
         <ParallaxLayer offset={0.6} speed={1.5} className="flex justify-center">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold myFont">Bienvenue !</h1>
-            <p className="py-6">Je m'appelle Andreas. Je suis développeur web diplômé en BAC +4, spécialisé dans le développement front-end avec React. Je suis enthousiaste à l'idée de mettre mes compétences et mon expérience au service de votre entreprise.</p>
+            <p className="py-6">Je m'appelle Andreas. Je suis développeur web spécialisé dans le développement front-end avec React. Je suis enthousiaste à l'idée de mettre mes compétences et mon expérience au service de votre entreprise.</p>
           </div>
         </ParallaxLayer>
       </div>

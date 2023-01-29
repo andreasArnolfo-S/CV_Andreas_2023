@@ -11,14 +11,14 @@ const Parcours: FC<ParcoursProps> = () => (
     </ParallaxLayer>
     <ParallaxLayer offset={0.8} speed={1.3} className='flex justify-center'>
       <ul className="steps steps-vertical">
-        <li className="step step-secondary">CAP mecanicien aeronautique (Obtenue)</li>
-        <li className="step step-secondary">Bac professionnel mecanicien aeronautique (Obtenue)</li>
-        <li className="step step-accent">Reconversion professionnel</li>
-        <li className="step step-primary">Bac +2 developpeur web et mobile (Obtenue)</li>
+        <li className="step step-secondary">CAP mécanicien aéronautique (Obtenu)</li>
+        <li className="step step-secondary">Bac professionnel mécanicien aéronautique (Obtenu)</li>
+        <li className="step step-accent">Reconversion professionnelle</li>
+        <li className="step step-primary">Bac +2 développeur web et mobile (Obtenu)</li>
         <li className="step step-primary">Stage chez VisioGreen (Ionic 3)</li>
-        <li className="step step-primary">Stage chez CapFinance (Ionic 3)</li>
-        <li className="step step-primary">Employer 2 ans chez regulvar inc (Canada)</li>
-        <li className="step step-primary">Bac +4 developpeur front-end react (En cours. Fin le 17/02/2023)</li>
+        <li className="step step-primary">Stage chez CapFinances (Ionic 3)</li>
+        <li className="step step-primary">Employé 2 ans chez régulvar.inc (Canada)</li>
+        <li className="step step-primary">Bac +4 développeur front-end react (En cours. Fin le 17/02/2023)</li>
       </ul>
     </ParallaxLayer>
   </>

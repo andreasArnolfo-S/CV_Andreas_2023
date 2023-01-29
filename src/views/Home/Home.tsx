@@ -29,6 +29,9 @@ const Home: FC<HomeProps> = () => {
       <ParallaxLayer offset={1} speed={0} factor={1/2} className='h-auto'>
         <About />
       </ParallaxLayer>
+      <ParallaxLayer offset={1.4} speed={4} factor={3} className='h-auto flex justify-end'>
+        <img className='w-80 h-80' src="https://media.discordapp.net/attachments/978413517780697141/1006007454288584754/0424dcbb-39cf-4a88-8703-1e58e0d3a306-937e4530-607b-4917-b799-ae98b5d79f28-v1.png" alt="" />
+      </ParallaxLayer>
 
       <ParallaxLayer offset={2} speed={0} factor={1/2} className='h-auto'>
         <Skills />
@@ -38,9 +41,7 @@ const Home: FC<HomeProps> = () => {
         <Portfolio />
       </ParallaxLayer>
 
-      <ParallaxLayer offset={1.4} speed={4} factor={3} className='h-auto flex justify-end'>
-        <img className='w-80 h-80' src="https://media.discordapp.net/attachments/978413517780697141/1006007454288584754/0424dcbb-39cf-4a88-8703-1e58e0d3a306-937e4530-607b-4917-b799-ae98b5d79f28-v1.png" alt="" />
-      </ParallaxLayer>
+
 
       <ParallaxLayer offset={1.7} speed={1} factor={3} className='h-auto deskfolio flex justify-center'>
         <Link to='/portfolio' className='btn btn-primary'>Voir mon Portfolio</Link>

@@ -32,7 +32,7 @@ const Contact: FC<ContactProps> = () => {
   };
   return (
     <>
-      <ParallaxLayer offset={0} speed={0.94} className="flex justify-center">
+      <ParallaxLayer offset={0} speed={0.90} className="flex justify-center">
         <h1 className='text-5xl font-bold text-center w-full text-base-600 myFont'>Me Contacter !</h1>
       </ParallaxLayer>
       <ParallaxLayer offset={0.8} speed={1.7} className='flex justify-center align-middle items-center m-auto'>
