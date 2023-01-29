@@ -1,0 +1,16 @@
+.myFont {
+     font-family: 'Lobster', cursive;
+}
+
+@media screen and (max-width: 768px) {
+     .aboutme {
+          flex-direction: column;  
+          justify-content: center;
+          align-items: center;
+          flex-wrap: nowrap; 
+          gap: 5%;       
+     }
+     .imgAbout {
+          display: none;
+     }
+}
