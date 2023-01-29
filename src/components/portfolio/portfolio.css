@@ -1,8 +1,9 @@
 @media screen and (max-width: 600px) {
-     .card {
-          width: 40%;
-          height: 20%;
-     }
+
+	.card {
+		width: 80%;
+	}
+
 	.folio {
 		flex-direction: row !important;
 		justify-content: center;
@@ -10,6 +11,8 @@
 		gap: 5%;
 	}
 	.imgCard {
-		display: none;
+		height: 150px;
 	}
+
+
 }
