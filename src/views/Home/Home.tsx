@@ -55,9 +55,6 @@ const Home: FC<HomeProps> = () => {
         <Contact />
       </ParallaxLayer>
 
-      <ParallaxLayer offset={4} speed={0} factor={3} className='h-auto'>
-        <Footer />
-      </ParallaxLayer>
     </Parallax>
   </div>
 );}
