@@ -5,7 +5,6 @@ import './Home.css';
 import Skills from './../../components/Skills/Skills';
 import Contact from './../../components/Contact/Contact';
 import About from './../../components/About/About';
-import Footer from './../../components/footer/footer';
 import Portfolio from './../../components/portfolio/portfolio';
 import Parcours from './../../components/Parcours/Parcours';
 import { Link } from 'react-router-dom';
